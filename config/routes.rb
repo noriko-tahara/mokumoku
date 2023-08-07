@@ -41,4 +41,6 @@ Rails.application.routes.draw do
       resources :events, only: %i[index]
     end
   end
+
+  resources :profiles, only: %i[show]
 end
